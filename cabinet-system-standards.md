@@ -189,6 +189,9 @@ same_height: true
 
 toe_kick_type: integrated
 
+height_formula:
+formula: overall_height - countertop_thickness
+
 toe_kick_height_deduction:
 enabled: false
 
