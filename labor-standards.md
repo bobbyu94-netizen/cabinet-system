@@ -1,4 +1,3 @@
-
 # Labor Standards
 
 ## Purpose
@@ -90,6 +89,44 @@ Unless otherwise specified, the following assumptions apply:
 | Drawer Assembly    | 0.50 hrs |
 | Front Installation | 0.25 hrs |
 | Sanding and Prep   | 0.50 hrs |
+
+### Width Adjustment
+
+The standard base cabinet labor table is the baseline. Width should not multiply the entire cabinet labor estimate. Width adjustment should only apply to size-sensitive operations. Door count, drawer count, finish type, and installation difficulty should be tracked separately.
+
+| Cabinet Width     | Width Factor  | Notes                                                           |
+| ----------------: | ------------: | --------------------------------------------------------------- |
+| Up to 18 inches   |          0.95 | Small cabinet, slightly less handling and sanding               |
+| 19 to 30 inches   |          1.00 | Baseline range                                                  |
+| 31 to 42 inches   |          1.10 | Slightly more handling, sanding, and assembly                   |
+| 43 to 48 inches   |          1.20 | Larger cabinet, more awkward handling                           |
+| Over 48 inches    | Custom Review | Consider splitting into sections or manually reviewing labor    |
+
+| Operation          | Apply Width Factor? | Notes                                                                 |
+| ------------------ | ------------------- | --------------------------------------------------------------------- |
+| CNC Cutting        | No                  | Keep baseline unless sheet handling changes significantly             |
+| Edge Banding       | Yes                 | Larger cabinets usually have more edge length                         |
+| Cabinet Assembly   | Yes                 | Larger boxes may take slightly more handling and squaring time         |
+| Drawer Assembly    | No                  | Track by drawer count instead                                         |
+| Front Installation | No                  | Track by door and drawer front count instead                          |
+| Sanding and Prep   | Yes                 | Larger surfaces take more prep time                                   |
+| Spray Finish       | Yes                 | Apply when finishing is included in the estimate                      |
+| Installation       | Separate Review     | Installation should be adjusted separately from shop labor             |
+
+#### Example: 36 Inch Standard Base Cabinet
+
+A 36 inch standard base cabinet uses the 31 to 42 inch width factor of 1.10 for size-sensitive operations only.
+
+| Operation          | Calculation        | Adjusted Time |
+| ------------------ | ------------------ | ------------: |
+| CNC Cutting        | 0.75 x 1.00        |      0.75 hrs |
+| Edge Banding       | 0.25 x 1.10        |     0.275 hrs |
+| Cabinet Assembly   | 1.50 x 1.10        |      1.65 hrs |
+| Drawer Assembly    | 0.50 x 1.00        |      0.50 hrs |
+| Front Installation | 0.25 x 1.00        |      0.25 hrs |
+| Sanding and Prep   | 0.50 x 1.10        |      0.55 hrs |
+
+Total: 3.975 hours, rounded to 4.0 hours.
 
 ### Excluded
 
