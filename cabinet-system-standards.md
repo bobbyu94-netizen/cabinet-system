@@ -4,6 +4,10 @@ version: 1.0
 owner: Bobby Umphlette
 units: imperial
 default_material_thickness: 0.75
+standard_construction: face_frame
+frameless_construction: non_standard_override_only
+standard_upper_height: 30 inches
+standard_upper_depth: 12 inches
 
 ---
 
@@ -32,6 +36,11 @@ default_back_reveal: 0.25
 
 visible_interior_finish: clear_coated
 
+standard_construction: face_frame
+frameless_construction: non_standard_override_only
+standard_upper_height: 30 inches
+standard_upper_depth: 12 inches
+
 construction_priority_order:
 
 * durability
@@ -48,8 +57,23 @@ material: birch_plywood
 thickness: 0.75
 finish: clear_coated_interior
 
+cabinet_back_material:
+material: birch_plywood
+thickness: 0.75
+finish: clear_coated_interior
+
 face_frame_material:
 material: poplar
+
+standard_construction:
+type: face_frame
+
+frameless_construction:
+type: non_standard_override_only
+
+standard_upper_dimensions:
+height: 30 inches
+depth: 12 inches
 
 door_material:
 material: poplar
@@ -128,6 +152,10 @@ assembly_method:
 
 face_frame_width: 1.5
 
+standard_cabinet_construction:
+face_frame_required: true
+frameless_allowed_by_default: false
+
 bottom_rail_extension:
 enabled: true
 default_extension: 0.75
@@ -164,11 +192,15 @@ type: groove
 
 overall_dimensions:
 reference_type: finished_exterior_dimensions
+standard_height: 30 inches
+standard_depth: 12 inches
+standard_construction: face_frame
 
 side_depth_formula:
 formula: overall_depth - face_frame_thickness
 
 back_panel_rules:
+material_thickness: 0.75
 placement: between_sides
 width_formula:
 formula: overall_width - material_thickness_x2 - side_reveal_x2
@@ -188,6 +220,7 @@ same_height: true
 ## base_cabinet_standard
 
 toe_kick_type: integrated
+standard_construction: face_frame
 
 height_formula:
 formula: overall_height - countertop_thickness
