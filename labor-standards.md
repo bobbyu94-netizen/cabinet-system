@@ -46,6 +46,20 @@ Unless otherwise specified, the following assumptions apply:
 
 ---
 
+## Labor Rate
+
+The default shop labor rate used for estimating is $65 per hour.
+
+This rate is used for preliminary estimating only and may be adjusted by project, customer, market, or business needs.
+
+Labor Cost = Estimated Labor Hours x Labor Rate
+
+### Rounding Rule
+
+Calculate labor hours using the unrounded operation totals first. Calculate labor cost from the unrounded total labor hours. Round final displayed labor hours to two decimal places and final displayed labor cost to the nearest cent.
+
+---
+
 # Standard Labor Operations
 
 | Operation             | Unit        | Standard Time |
