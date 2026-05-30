@@ -30,7 +30,7 @@ Labor is separated into the following categories:
 
 Unless otherwise specified, the following assumptions apply:
 
-* Frameless cabinet construction
+* Face frame cabinet construction
 * CNC cut components
 * Standard plywood construction
 * Standard shaker style fronts
@@ -88,7 +88,7 @@ Calculate labor hours using the unrounded operation totals first. Calculate labo
 * 34.5 inch cabinet height
 * 1 drawer
 * 2 doors
-* Frameless construction
+* Face frame construction
 * CNC cut components
 * Plywood construction
 * Standard hardware
@@ -160,7 +160,7 @@ Total: 3.975 hours, rounded to 4.0 hours.
 * 12 inch deep cabinet
 * Standard upper height
 * 2 doors
-* Frameless construction
+* Face frame construction
 * CNC cut components
 
 ### Estimated Labor
@@ -187,7 +187,7 @@ Total: 3.975 hours, rounded to 4.0 hours.
 ### Assumptions
 
 * Full height pantry cabinet
-* Frameless construction
+* Face frame construction
 * CNC cut components
 * Adjustable shelving
 
