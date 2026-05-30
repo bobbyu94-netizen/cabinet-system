@@ -100,6 +100,235 @@ example_sheet_names:
 
 ---
 
+# exact_workbook_format
+
+The required Excel workbook output must follow this exact print-only workbook structure unless the user specifically requests a different format.
+
+| Sheet Order | Sheet Name | Purpose |
+| ---: | --- | --- |
+| 1 | Summary | Material purchase summary |
+| 2 | 3-4 Birch Parts | Final 3/4 inch plywood cabinet box parts |
+| 3 | 3-4 Birch Sheet Plan | Rough 3/4 inch plywood sheet breakdown and optimized cutting plan |
+| 4 | 1-4 Door Panels | 1/4 inch plywood shaker door center panels |
+| 5 | Poplar Parts | Final poplar face frame and door rail/stile parts |
+| 6 | Poplar Cut Plan | Optimized poplar board breakdown |
+
+Do not use slash characters in Excel sheet names. Use `3-4 Birch Parts`, not `3/4 Birch Parts`.
+
+## standard_sheet_layout
+
+Every worksheet must follow this row structure:
+
+| Row | Content |
+| ---: | --- |
+| 1 | Sheet title |
+| 2 | Short note explaining assumptions, exclusions, workflow, or review items |
+| 3 | Blank spacer row |
+| 4 | Table headers |
+| 5+ | Table data |
+
+## summary_sheet_format
+
+The `Summary` sheet must use these columns:
+
+| Column | Header |
+| --- | --- |
+| A | Material |
+| B | Purchase Qty |
+| C | Used For |
+| D | Notes |
+
+Column width guidelines:
+
+| Column | Width |
+| --- | ---: |
+| A | 24 |
+| B | 16 |
+| C | 36 |
+| D | 38 |
+
+## three_quarter_birch_parts_sheet_format
+
+The `3-4 Birch Parts` sheet is for final part dimensions, not rough sheet breakdowns.
+
+The sheet must use these columns:
+
+| Column | Header |
+| --- | --- |
+| A | Cab |
+| B | Part |
+| C | Qty |
+| D | Width |
+| E | Ht/Len |
+| F | Depth |
+| G | Formula / Notes |
+
+Column width guidelines:
+
+| Column | Width |
+| --- | ---: |
+| A | 12 |
+| B | 18 |
+| C | 7 |
+| D | 12 |
+| E | 12 |
+| F | 12 |
+| G | 42 |
+
+## three_quarter_birch_sheet_plan_format
+
+The `3-4 Birch Sheet Plan` sheet is for rough sheet breakdown and optimized cutting sequence.
+
+The sheet must use these columns:
+
+| Column | Header |
+| --- | --- |
+| A | Sheet |
+| B | Order |
+| C | Rough Section |
+| D | Parts Produced |
+| E | Final Size |
+| F | Qty |
+| G | Why This Cut |
+
+Column width guidelines:
+
+| Column | Width |
+| --- | ---: |
+| A | 12 |
+| B | 8 |
+| C | 20 |
+| D | 32 |
+| E | 18 |
+| F | 8 |
+| G | 42 |
+
+## one_quarter_door_panels_sheet_format
+
+The `1-4 Door Panels` sheet is for 1/4 inch plywood shaker door center panels only.
+
+The sheet must use these columns:
+
+| Column | Header |
+| --- | --- |
+| A | Cab |
+| B | Part |
+| C | Qty |
+| D | Width |
+| E | Height |
+| F | Formula / Notes |
+
+Column width guidelines:
+
+| Column | Width |
+| --- | ---: |
+| A | 12 |
+| B | 24 |
+| C | 8 |
+| D | 14 |
+| E | 14 |
+| F | 46 |
+
+## poplar_parts_sheet_format
+
+The `Poplar Parts` sheet includes final poplar parts for face frames and shaker door rails/stiles.
+
+The sheet must use these columns:
+
+| Column | Header |
+| --- | --- |
+| A | Category |
+| B | Part |
+| C | Qty |
+| D | Length |
+| E | Width |
+| F | Formula / Notes |
+
+Column width guidelines:
+
+| Column | Width |
+| --- | ---: |
+| A | 24 |
+| B | 22 |
+| C | 8 |
+| D | 14 |
+| E | 12 |
+| F | 42 |
+
+## poplar_cut_plan_format
+
+The `Poplar Cut Plan` sheet is for optimized poplar board breakdown and offcut tracking.
+
+The sheet must use these columns:
+
+| Column | Header |
+| --- | --- |
+| A | Board |
+| B | Order |
+| C | Length |
+| D | Rip Parts From Section |
+| E | Width Used |
+| F | Offcut |
+| G | Status |
+
+Column width guidelines:
+
+| Column | Width |
+| --- | ---: |
+| A | 14 |
+| B | 8 |
+| C | 12 |
+| D | 36 |
+| E | 14 |
+| F | 20 |
+| G | 30 |
+
+---
+
+# required_cut_list_behavior
+
+When a user asks for an optimized cabinet cut list, the expected output is a downloadable Excel `.xlsx` workbook.
+
+Rules:
+
+* Do not return only a markdown table unless the user explicitly asks for a chat-only cut list.
+* Use the exact workbook sheet structure documented in this file.
+* Read `cabinet-system-standards.md` before creating the cut list.
+* Read `material-usage-standards.md` when material quantity assumptions are needed.
+* Standard upper cabinets should include two shaker doors unless the user says otherwise.
+* Standard upper cabinets should include face frame parts, door parts, 3/4 inch plywood box parts, 3/4 inch plywood back, and 1/4 inch door panels.
+* Standard base cabinets should include face frame parts, door/drawer parts when applicable, 3/4 inch plywood box parts, 3/4 inch plywood back, and integrated toe kick rules from `cabinet-system-standards.md`.
+* Do not omit doors from a standard cabinet cut list unless the user explicitly says doors are excluded.
+
+---
+
+# file_naming_rules
+
+Use this naming pattern:
+
+`<width>x<height>-<cabinet-type>-cut-list.xlsx`
+
+Examples:
+
+* `26x30-standard-upper-cabinet-cut-list.xlsx`
+* `36x34-5-standard-base-cabinet-cut-list.xlsx`
+
+---
+
+# review_warnings
+
+The generated workbook summary or response should warn when:
+
+* dimensions are inferred from a sketch
+* depth is not shown and standard depth is assumed
+* door overlay is assumed
+* number of shelves is assumed
+* material thickness is assumed
+* a project override may apply
+* the cut list is preliminary and should be verified before cutting
+
+---
+
 # print_settings
 
 page_orientation:
