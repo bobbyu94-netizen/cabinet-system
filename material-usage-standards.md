@@ -65,13 +65,17 @@ Manual Review Required
 
 Unless project-specific overrides exist, use these material assumptions:
 
+* Standard cabinets use face frame construction.
+* Cabinet backs use 3/4 Birch Plywood, item ID `PLY-075-BIRCH`.
+* 1/4 Birch Plywood is used only for drawer bottoms, shaker door panels, and project-specific thin panels unless otherwise specified.
+
 | Cabinet Component            | Default Material             | Pricing Item ID       |
 | ---------------------------- | ---------------------------- | --------------------- |
 | Cabinet box parts            | 3/4 Birch Plywood            | PLY-075-BIRCH         |
 | Shelves                      | 3/4 Birch Plywood            | PLY-075-BIRCH         |
+| Cabinet backs                | 3/4 Birch Plywood            | PLY-075-BIRCH         |
 | Drawer boxes                 | 1/2 Birch Plywood            | PLY-050-BIRCH         |
 | Drawer bottoms               | 1/4 Birch Plywood            | PLY-025-BIRCH         |
-| Cabinet backs                | 1/4 Birch Plywood            | PLY-025-BIRCH         |
 | Face frames                  | Poplar                       | POP-1X2-8 / POP-1X3-8 |
 | Shaker door rails and stiles | Poplar                       | POP-1X3-8             |
 | Shaker door panels           | 1/4 Birch Plywood            | PLY-025-BIRCH         |
@@ -92,8 +96,9 @@ Unless otherwise specified, a standard base cabinet assumes:
 
 * 24 inch depth
 * 34.5 inch height
-* Frameless construction
+* Face frame construction
 * CNC cut cabinet box
+* 3/4 inch birch plywood cabinet back
 * 1 drawer
 * 2 doors
 * 1 adjustable shelf
@@ -105,6 +110,8 @@ Unless otherwise specified, a standard base cabinet assumes:
 * No installation material
 * No specialty inserts
 
+These allowances are rough preliminary estimating values and are not final optimized cut lists.
+
 ---
 
 ## Base Cabinet Width Allowance Table
@@ -113,14 +120,60 @@ Use this table for rough material estimating before an optimized cut list exists
 
 | Cabinet Width | 3/4 Birch Plywood | 1/2 Birch Plywood | 1/4 Birch Plywood | Poplar 1x3 8 ft | Birch Edge Banding | Hinges | Drawer Slide Pairs |  Pulls |
 | ------------: | ----------------: | ----------------: | ----------------: | --------------: | -----------------: | -----: | -----------------: | -----: |
-|     12 inches |        0.55 sheet |        0.15 sheet |        0.15 sheet |         1 board |       12 linear_ft | 2 each |             1 pair | 2 each |
-|     18 inches |        0.65 sheet |        0.20 sheet |        0.20 sheet |         1 board |       16 linear_ft | 2 each |             1 pair | 2 each |
-|     24 inches |        0.75 sheet |        0.25 sheet |        0.25 sheet |        2 boards |       20 linear_ft | 4 each |             1 pair | 3 each |
-|     30 inches |        0.90 sheet |        0.25 sheet |        0.30 sheet |        2 boards |       24 linear_ft | 4 each |             1 pair | 3 each |
-|     32 inches |        0.95 sheet |        0.25 sheet |        0.30 sheet |        2 boards |       25 linear_ft | 4 each |             1 pair | 3 each |
-|     36 inches |        1.00 sheet |        0.30 sheet |        0.35 sheet |        2 boards |       28 linear_ft | 4 each |             1 pair | 3 each |
-|     42 inches |        1.15 sheet |        0.30 sheet |        0.40 sheet |        3 boards |       32 linear_ft | 4 each |             1 pair | 3 each |
-|     48 inches |        1.30 sheet |        0.35 sheet |        0.45 sheet |        3 boards |       36 linear_ft | 4 each |             1 pair | 3 each |
+|     12 inches |        0.65 sheet |        0.15 sheet |        0.10 sheet |         1 board |       12 linear_ft | 2 each |             1 pair | 2 each |
+|     18 inches |        0.75 sheet |        0.20 sheet |        0.15 sheet |         1 board |       16 linear_ft | 2 each |             1 pair | 2 each |
+|     24 inches |        0.90 sheet |        0.25 sheet |        0.20 sheet |        2 boards |       20 linear_ft | 4 each |             1 pair | 3 each |
+|     30 inches |        1.05 sheet |        0.25 sheet |        0.25 sheet |        2 boards |       24 linear_ft | 4 each |             1 pair | 3 each |
+|     32 inches |        1.10 sheet |        0.25 sheet |        0.25 sheet |        2 boards |       25 linear_ft | 4 each |             1 pair | 3 each |
+|     36 inches |        1.20 sheet |        0.30 sheet |        0.30 sheet |        2 boards |       28 linear_ft | 4 each |             1 pair | 3 each |
+|     42 inches |        1.35 sheet |        0.30 sheet |        0.35 sheet |        3 boards |       32 linear_ft | 4 each |             1 pair | 3 each |
+|     48 inches |        1.55 sheet |        0.35 sheet |        0.40 sheet |        3 boards |       36 linear_ft | 4 each |             1 pair | 3 each |
+
+---
+
+# Standard Upper Cabinet Material Allowances
+
+## Standard Upper Cabinet Assumptions
+
+Unless otherwise specified, a standard upper cabinet assumes:
+
+* 30 inch height
+* 12 inch depth
+* Face frame construction
+* CNC cut cabinet box
+* 2 adjustable shelves
+* 3/4 inch cabinet back
+* Standard soft close hinges
+* Standard shaker doors
+* Painted exterior
+* Clear-coated or finished interior
+* No crown molding
+* No lighting
+* No glass doors
+* No installation material
+* No specialty inserts
+
+## Upper Cabinet Width Allowance Table
+
+Use this table for rough material estimating before an optimized cut list exists.
+
+| Cabinet Width | 3/4 Birch Plywood | 1/4 Birch Plywood | Poplar 1x3 8 ft | Birch Edge Banding | Hinges | Pulls |
+| ------------: | ----------------: | ----------------: | --------------: | -----------------: | -----: | ----: |
+|     12 inches |        0.55 sheet |        0.10 sheet |         1 board |       10 linear_ft | 2 each | 1 each |
+|     18 inches |        0.65 sheet |        0.15 sheet |         1 board |       12 linear_ft | 2 each | 1 each |
+|     24 inches |        0.80 sheet |        0.20 sheet |        2 boards |       16 linear_ft | 4 each | 2 each |
+|     30 inches |        0.95 sheet |        0.25 sheet |        2 boards |       20 linear_ft | 4 each | 2 each |
+|     32 inches |        1.00 sheet |        0.25 sheet |        2 boards |       22 linear_ft | 4 each | 2 each |
+|     36 inches |        1.10 sheet |        0.30 sheet |        2 boards |       24 linear_ft | 4 each | 2 each |
+|     42 inches |        1.25 sheet |        0.35 sheet |        3 boards |       28 linear_ft | 4 each | 2 each |
+|     48 inches |        1.40 sheet |        0.40 sheet |        3 boards |       32 linear_ft | 4 each | 2 each |
+
+Notes:
+
+* These allowances are preliminary estimating values only.
+* They include a 3/4 inch back.
+* They assume standard face frame construction.
+* They should be replaced by an optimized cut list when actual project drawings are available.
 
 ---
 
@@ -188,7 +241,7 @@ This is a rough allowance and should be refined with actual project tracking.
 
 # Finish Material Allowance
 
-Paint and finishing supplies are not included in the standard base cabinet material table unless specifically requested.
+Paint and finishing supplies are not included in the standard base or upper cabinet material tables unless specifically requested.
 
 For rough cabinet finishing estimates, use:
 
@@ -305,7 +358,6 @@ Use actual project drawings and optimized cut lists for final production.
 
 Possible future improvements include:
 
-* Add upper cabinet usage allowances
 * Add pantry cabinet usage allowances
 * Add drawer base usage allowances
 * Add sink base usage allowances
@@ -324,4 +376,4 @@ Possible future improvements include:
 
 Initial material usage standards created for preliminary cabinet quoting.
 
-The first version focuses on standard base cabinets and uses rough material allowances until optimized cut lists are available.
+The first version focuses on standard base and upper cabinets and uses rough material allowances until optimized cut lists are available.
