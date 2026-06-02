@@ -31,7 +31,6 @@ Labor is separated into the following categories:
 Unless otherwise specified, the following assumptions apply:
 
 * Face frame cabinet construction
-* CNC cut components
 * Standard plywood construction
 * Standard shaker style fronts
 * Soft close hinges and slides
@@ -41,7 +40,6 @@ Unless otherwise specified, the following assumptions apply:
 * No specialty finishes
 * No inset doors unless specified
 * No highly figured or difficult hardwoods
-* Components are cut using CNC workflow
 * Standard cabinet dimensions
 
 ---
@@ -64,15 +62,14 @@ Calculate labor hours using the unrounded operation totals first. Calculate labo
 
 | Operation             | Unit        | Standard Time |
 | --------------------- | ----------- | ------------: |
-| Initial Design        | Per Job     |       2.0 hrs |
-| CNC Programming       | Per Job     |       1.0 hrs |
+| Initial Design        | Per Job     |       1.0 hrs |
 | Material Pickup       | Per Trip    |       1.5 hrs |
-| CNC Cutting           | Per Sheet   |      0.75 hrs |
+| Cutting & Prep        | Per Sheet   |      0.75 hrs |
 | Edge Banding          | Per Cabinet |      0.25 hrs |
 | Drawer Box Assembly   | Per Drawer  |      0.50 hrs |
 | Hardware Installation | Per Opening |      0.10 hrs |
 | Sanding and Prep      | Per Cabinet |      0.50 hrs |
-| Spray Finish          | Per Cabinet |      0.50 hrs |
+| Spray Finish          | Per Cabinet |       2.0 hrs |
 | Delivery Loadout      | Per Job     |       1.0 hrs |
 | Final Touch-up        | Per Job     |       1.5 hrs |
 
@@ -89,7 +86,6 @@ Calculate labor hours using the unrounded operation totals first. Calculate labo
 * 1 drawer
 * 2 doors
 * Face frame construction
-* CNC cut components
 * Plywood construction
 * Standard hardware
 
@@ -97,7 +93,7 @@ Calculate labor hours using the unrounded operation totals first. Calculate labo
 
 | Operation          |     Time |
 | ------------------ | -------: |
-| CNC Cutting        | 0.75 hrs |
+| Cutting & Prep     | 0.75 hrs |
 | Edge Banding       | 0.25 hrs |
 | Cabinet Assembly   | 1.50 hrs |
 | Drawer Assembly    | 0.50 hrs |
@@ -118,7 +114,7 @@ The standard base cabinet labor table is the baseline. Width should not multiply
 
 | Operation          | Apply Width Factor? | Notes                                                                 |
 | ------------------ | ------------------- | --------------------------------------------------------------------- |
-| CNC Cutting        | No                  | Keep baseline unless sheet handling changes significantly             |
+| Cutting & Prep     | No                  | Keep baseline unless sheet handling changes significantly             |
 | Edge Banding       | Yes                 | Larger cabinets usually have more edge length                         |
 | Cabinet Assembly   | Yes                 | Larger boxes may take slightly more handling and squaring time         |
 | Drawer Assembly    | No                  | Track by drawer count instead                                         |
@@ -159,15 +155,15 @@ Total: 3.975 hours, rounded to 4.0 hours.
 
 * 12 inch deep cabinet
 * Standard upper height
-* 2 doors
+* 2 doors if width is larger than 14", 1 door if equal to or smaller
 * Face frame construction
-* CNC cut components
+
 
 ### Estimated Labor
 
 | Operation          |     Time |
 | ------------------ | -------: |
-| CNC Cutting        | 0.50 hrs |
+| Cutting & Prep     | 0.50 hrs |
 | Edge Banding       | 0.20 hrs |
 | Cabinet Assembly   | 1.00 hrs |
 | Front Installation | 0.25 hrs |
@@ -188,14 +184,13 @@ Total: 3.975 hours, rounded to 4.0 hours.
 
 * Full height pantry cabinet
 * Face frame construction
-* CNC cut components
 * Adjustable shelving
 
 ### Estimated Labor
 
 | Operation          |     Time |
 | ------------------ | -------: |
-| CNC Cutting        | 1.00 hrs |
+| Cutting & Prep     | 1.00 hrs |
 | Edge Banding       | 0.40 hrs |
 | Cabinet Assembly   | 2.50 hrs |
 | Front Installation | 0.50 hrs |
@@ -250,7 +245,6 @@ These multipliers are intended to adjust labor estimates for increased project d
 | Inset Doors            |       1.50 |
 | Custom Trim            |       1.35 |
 | High-End Hardwood      |       1.15 |
-| No CNC Workflow        |       1.40 |
 | Highly Irregular Walls |       1.20 |
 | Specialty Hardware     |       1.15 |
 
