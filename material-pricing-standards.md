@@ -299,14 +299,17 @@ Example output:
 
 # Updating Prices
 
+**`material-price-table.csv` is the single authoritative source for all material prices.** When a price is verified or updated, update the CSV first. The skill's `price-table.md` is a human-readable summary kept in sync with the CSV — it is not a separate source of truth.
+
 When updating prices manually:
 
-1. Locate the matching `item_id`.
+1. Locate the matching `item_id` in `material-price-table.csv`.
 2. Update `estimated_unit_cost`.
-3. Update `cost_basis`.
+3. Update `cost_basis` (use `manual` for website lookups, `receipt` for actual purchases).
 4. Update `last_updated`.
-5. Update `price_confidence`.
-6. Add notes if needed.
+5. Update `price_confidence` (use `high` for verified website or receipt prices).
+6. Add notes if needed (include verification date and source).
+7. Update the corresponding entry in the skill's `price-table.md` to match.
 
 Do not change the `item_id` unless the item itself is being replaced or renamed.
 

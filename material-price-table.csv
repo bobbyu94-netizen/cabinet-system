@@ -20,8 +20,8 @@ POP-1X2-8,solid_lumber,1x2 Poplar,S4S poplar board,3/4 x 1-1/2 x 8 ft,each,Home 
 POP-1X3-8,solid_lumber,1x3 Poplar,S4S poplar board,3/4 x 2-1/2 x 8 ft,each,Home Depot,18,estimated,5/29/2026,low,
 POP-1X4-8,solid_lumber,1x4 Poplar,S4S poplar board,3/4 x 3-1/2 x 8 ft,each,Home Depot,24,estimated,5/29/2026,low,
 POP-1X6-8,solid_lumber,1x6 Poplar,S4S poplar board,3/4 x 5-1/2 x 8 ft,each,Home Depot,38,estimated,5/29/2026,low,
-POP-1X8-8,solid_lumber,1x8 Poplar,S4S poplar board,3/4 x 7-1/4 x 8 ft,each,Home Depot,55,estimated,5/29/2026,low,
-POP-1X10-8,solid_lumber,1x10 Poplar,S4S poplar board,3/4 x 9-1/4 x 8 ft,each,Home Depot,75,estimated,5/29/2026,low,
+POP-1X8-LF,solid_lumber,1x8 Poplar,S4S poplar board - priced per linear foot; board lengths vary 8-12ft,3/4 x 7-1/4 in,linear_foot,Home Depot,5.34,manual,6/3/2026,high,Verified from Home Depot website 6/2/2026
+POP-1X10-LF,solid_lumber,1x10 Poplar,S4S poplar board - priced per linear foot; board lengths vary 8-12ft,3/4 x 9-1/4 in,linear_foot,Home Depot,8.57,manual,6/3/2026,high,Verified from Home Depot website 6/2/2026
 POP-1X12-8,solid_lumber,1x12 Poplar,S4S poplar board,3/4 x 11-1/4 x 8 ft,each,Home Depot,95,estimated,5/29/2026,low,
 PINE-1X2-8,solid_lumber,1x2 Select Pine,select pine board,3/4 x 1-1/2 x 8 ft,each,Home Depot,9,estimated,5/29/2026,low,
 PINE-1X3-8,solid_lumber,1x3 Select Pine,select pine board,3/4 x 2-1/2 x 8 ft,each,Home Depot,13,estimated,5/29/2026,low,
