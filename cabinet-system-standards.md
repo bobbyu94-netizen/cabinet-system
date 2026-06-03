@@ -174,16 +174,30 @@ rail_stile_width: 3.0
 
 tenon_allowance_per_side: 0.375
 
-panel_oversize_per_side: 0.3125
-
-rail_formula:
-formula: door_width - stile_width_x2 + tenon_allowance_x2
-
 panel_formula:
-formula: visible_opening + groove_allowance_all_sides
+formula: door_width - 5.25 (width), door_height - 5.25 (height)
+note: 5.25 = (2 x 3.0 stile) - (2 x 0.375 tenon)
 
 panel_capture_method:
 type: groove
+
+overlay: 0.5 (all exposed sides)
+
+center_gap_double_door:
+total: 0.125
+per_door_deduction: 0.0625
+
+door_height_gap: none
+
+single_door_formula:
+applies_when: cabinet_width < 24
+door_width: opening_width + 1.0
+door_height: opening_height + 1.0
+
+double_door_formula:
+applies_when: cabinet_width >= 24
+each_door_width: (opening_width / 2) + 0.5 - 0.0625
+door_height: opening_height + 1.0
 
 ---
 

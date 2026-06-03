@@ -157,7 +157,7 @@ Total: 3.975 hours, rounded to 4.0 hours.
 
 * 12 inch deep cabinet
 * Standard upper height
-* 2 doors if width is larger than 14", 1 door if equal to or smaller
+* 2 doors if width is 24" or larger, 1 door if smaller than 24"
 * Face frame construction
 
 
@@ -173,13 +173,13 @@ Total: 3.975 hours, rounded to 4.0 hours.
 
 ### Width Adjustment
 
-| Cabinet Width     | Width Factor  | Notes                                                           |
-| ----------------: | ------------: | --------------------------------------------------------------- |
-| Up to 18 inches   |          0.95 | Small cabinet, slightly less handling and sanding               |
-| 19 to 30 inches   |          1.00 | Baseline range                                                  |
-| 31 to 42 inches   |          1.10 | Slightly more handling, sanding, and assembly                   |
-| 43 to 48 inches   |          1.20 | Larger cabinet, more awkward handling                           |
-| Over 48 inches    | Custom Review | Consider splitting into sections or manually reviewing labor    |
+| Cabinet Width     | Width Factor  | Notes                                                                        |
+| ----------------: | ------------: | ---------------------------------------------------------------------------- |
+| Up to 18 inches   |          0.95 | Small single door, slightly less handling and sanding                        |
+| 19 to 24 inches   |          1.00 | Baseline — single door                                                       |
+| 25 to 36 inches   |          1.10 | Double door starts here — more parts, more assembly time                     |
+| 37 to 48 inches   |          1.20 | Larger double door, more handling                                            |
+| Over 48 inches    | Custom Review | Non-standard — manually review or consider splitting sections                |
 
 | Operation          | Apply Width Factor? | Notes                                                      |
 | ------------------ | ------------------- | ---------------------------------------------------------- |
