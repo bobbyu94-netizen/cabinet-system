@@ -1,16 +1,16 @@
 item_id,category,item_name,description,size,unit,vendor,estimated_unit_cost,cost_basis,last_updated,price_confidence,notes
-PLY-075-BIRCH,sheet_goods,3/4 Birch Plywood,cabinet grade plywood,4 x 8 x 3/4 in,sheet,Home Depot,85,estimated,5/29/2026,low,Top 10 common 4x8 cabinet sheet goods
+PLY-075-BIRCH,sheet_goods,3/4 Birch Plywood,cabinet grade plywood,4 x 8 x 3/4 in,sheet,Home Depot,89,manual,6/2/2026,low,Top 10 common 4x8 cabinet sheet goods
 PLY-075-MAPLE,sheet_goods,3/4 Maple Plywood,cabinet grade plywood,4 x 8 x 3/4 in,sheet,Home Depot,95,estimated,5/29/2026,low,Top 10 common 4x8 cabinet sheet goods
 PLY-075-OAK,sheet_goods,3/4 Red Oak Plywood,cabinet grade plywood,4 x 8 x 3/4 in,sheet,Home Depot,90,estimated,5/29/2026,low,Top 10 common 4x8 cabinet sheet goods
 PLY-075-SANDE,sheet_goods,3/4 Sande Plywood,paint grade cabinet plywood,4 x 8 x 3/4 in,sheet,Home Depot,70,estimated,5/29/2026,low,Top 10 common 4x8 cabinet sheet goods
 PLY-075-PREFIN-MAPLE,sheet_goods,3/4 Prefinished Maple Plywood,prefinished cabinet plywood,4 x 8 x 3/4 in,sheet,Home Depot,125,estimated,5/29/2026,low,Top 10 common 4x8 cabinet sheet goods
-PLY-050-BIRCH,sheet_goods,1/2 Birch Plywood,drawer/utility plywood,4 x 8 x 1/2 in,sheet,Home Depot,60,estimated,5/29/2026,low,Top 10 common 4x8 cabinet sheet goods
+PLY-050-BIRCH,sheet_goods,1/2 Birch Plywood,drawer/utility plywood,4 x 8 x 1/2 in,sheet,Home Depot,48,manual,6/2/2026,low,Top 10 common 4x8 cabinet sheet goods
 PLY-050-MAPLE,sheet_goods,1/2 Maple Plywood,cabinet plywood,4 x 8 x 1/2 in,sheet,Home Depot,75,estimated,5/29/2026,low,Top 10 common 4x8 cabinet sheet goods
 PLY-025-BIRCH,sheet_goods,1/4 Birch Plywood,backs and drawer bottoms,4 x 8 x 1/4 in,sheet,Home Depot,35,estimated,5/29/2026,low,Top 10 common 4x8 cabinet sheet goods
 PLY-025-MAPLE,sheet_goods,1/4 Maple Plywood,backs and panels,4 x 8 x 1/4 in,sheet,Home Depot,45,estimated,5/29/2026,low,Top 10 common 4x8 cabinet sheet goods
 PLY-075-MDF,sheet_goods,3/4 MDF,paint grade panels,4 x 8 x 3/4 in,sheet,Home Depot,50,estimated,5/29/2026,low,Top 10 common 4x8 cabinet sheet goods
 PLY-050-MDF,sheet_goods,1/2 MDF,paint grade panels,4 x 8 x 1/2 in,sheet,Home Depot,38,estimated,5/29/2026,low,
-PLY-025-MDF,sheet_goods,1/4 MDF,templates and backs,4 x 8 x 1/4 in,sheet,Home Depot,25,estimated,5/29/2026,low,
+PLY-025-MDF,sheet_goods,1/4 MDF,door panels and templates,4 x 8 x 1/4 in,sheet,Home Depot,22,manual,6/2/2026,low,
 PLY-075-MDO,sheet_goods,3/4 MDO Plywood,paint grade exterior panel,4 x 8 x 3/4 in,sheet,Home Depot,110,estimated,5/29/2026,low,
 PLY-075-AC,sheet_goods,3/4 AC Plywood,utility plywood,4 x 8 x 3/4 in,sheet,Home Depot,65,estimated,5/29/2026,low,
 PLY-050-AC,sheet_goods,1/2 AC Plywood,utility plywood,4 x 8 x 1/2 in,sheet,Home Depot,48,estimated,5/29/2026,low,
@@ -65,8 +65,8 @@ SAND-120-5,supplies,Sanding Discs 120 Grit,common woodworking/cabinet supply,5 i
 SAND-180-5,supplies,Sanding Discs 180 Grit,common woodworking/cabinet supply,5 in multi-pack,pack,Home Depot,10,estimated,5/29/2026,low,
 SAND-220-5,supplies,Sanding Discs 220 Grit,common woodworking/cabinet supply,5 in multi-pack,pack,Home Depot,10,estimated,5/29/2026,low,
 SAND-SPONGE-MED,supplies,Sanding Sponge Medium,common woodworking/cabinet supply,standard,each,Home Depot,5,estimated,5/29/2026,low,
-PRIMER-GAL,supplies,Primer,common woodworking/cabinet supply,1 gallon,gallon,Home Depot,30,estimated,5/29/2026,low,
-PAINT-CAB-GAL,supplies,Cabinet Paint,common woodworking/cabinet supply,1 gallon,gallon,Home Depot,55,estimated,5/29/2026,low,
+PRIMER-GAL,supplies,Primer,common woodworking/cabinet supply,1 gallon,gallon,Home Depot,94.48,manual,6/2/2026,low,
+PAINT-CAB-GAL,supplies,Cabinet Paint,common woodworking/cabinet supply,1 gallon,gallon,Home Depot,55.98,manual,6/2/2026,low,
 POLY-WB-QT,supplies,Water Based Polyurethane,common woodworking/cabinet supply,1 quart,quart,Home Depot,25,estimated,5/29/2026,low,
 STAIN-QT,supplies,Wood Stain,common woodworking/cabinet supply,1 quart,quart,Home Depot,15,estimated,5/29/2026,low,
 DENATURED-ALC,supplies,Denatured Alcohol Substitute,common woodworking/cabinet supply,1 quart,quart,Home Depot,9,estimated,5/29/2026,low,

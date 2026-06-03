@@ -79,7 +79,7 @@ door_material:
 material: poplar
 
 door_panel_material:
-material: birch_plywood
+material: mdf
 thickness: 0.25
 
 drawer_box_material:
@@ -94,6 +94,7 @@ wet_area_rules:
 avoid_mdf: true
 use_water_resistant_base: true
 seal_lower_edges: true
+door_panel_wet_area_override: birch_plywood_0.25
 
 ---
 

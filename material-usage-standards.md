@@ -78,7 +78,7 @@ Unless project-specific overrides exist, use these material assumptions:
 | Drawer bottoms               | 1/4 Birch Plywood            | PLY-025-BIRCH         |
 | Face frames                  | Poplar                       | POP-1X2-8 / POP-1X3-8 |
 | Shaker door rails and stiles | Poplar                       | POP-1X3-8             |
-| Shaker door panels           | 1/4 Birch Plywood            | PLY-025-BIRCH         |
+| Shaker door panels           | 1/4 MDF                      | PLY-025-MDF           |
 | Edge banding                 | Birch Edge Banding           | EDGE-BIRCH-075        |
 | Hinges                       | Soft Close Concealed Hinge   | HINGE-SC-FRAMLESS     |
 | Drawer slides                | Soft Close Drawer Slide Pair | SLIDE-22-SC           |
@@ -118,16 +118,17 @@ These allowances are rough preliminary estimating values and are not final optim
 
 Use this table for rough material estimating before an optimized cut list exists.
 
-| Cabinet Width | 3/4 Birch Plywood | 1/2 Birch Plywood | 1/4 Birch Plywood | Poplar 1x3 8 ft | Birch Edge Banding | Hinges | Drawer Slide Pairs |  Pulls |
-| ------------: | ----------------: | ----------------: | ----------------: | --------------: | -----------------: | -----: | -----------------: | -----: |
-|     12 inches |        0.65 sheet |        0.15 sheet |        0.10 sheet |         1 board |       12 linear_ft | 2 each |             1 pair | 2 each |
-|     18 inches |        0.75 sheet |        0.20 sheet |        0.15 sheet |         1 board |       16 linear_ft | 2 each |             1 pair | 2 each |
-|     24 inches |        0.90 sheet |        0.25 sheet |        0.20 sheet |        2 boards |       20 linear_ft | 4 each |             1 pair | 3 each |
-|     30 inches |        1.05 sheet |        0.25 sheet |        0.25 sheet |        2 boards |       24 linear_ft | 4 each |             1 pair | 3 each |
-|     32 inches |        1.10 sheet |        0.25 sheet |        0.25 sheet |        2 boards |       25 linear_ft | 4 each |             1 pair | 3 each |
-|     36 inches |        1.20 sheet |        0.30 sheet |        0.30 sheet |        2 boards |       28 linear_ft | 4 each |             1 pair | 3 each |
-|     42 inches |        1.35 sheet |        0.30 sheet |        0.35 sheet |        3 boards |       32 linear_ft | 4 each |             1 pair | 3 each |
-|     48 inches |        1.55 sheet |        0.35 sheet |        0.40 sheet |        3 boards |       36 linear_ft | 4 each |             1 pair | 3 each |
+3/4 Birch Plywood values include: 2 sides, top, bottom, shelf, and 3/4 back. Formula: 1,604 + (W - 2) × 100.75 sq in ÷ 4,608 × 1.15 waste. 1/2 Birch and 1/4 Birch are per standard drawer (multiply by drawer count). 1/4 MDF is for door panels.
+
+| Cabinet Width | 3/4 Birch Plywood | 1/2 Birch Plywood | 1/4 Birch Plywood | 1/4 MDF | Poplar 1x3 8 ft | Birch Edge Banding | Hinges | Drawer Slide Pairs |  Pulls |
+| ------------: | ----------------: | ----------------: | ----------------: | ------: | --------------: | -----------------: | -----: | -----------------: | -----: |
+|     12 inches |        0.65 sheet |        0.06 sheet |        0.05 sheet | 0.02 sheet |         1 board |       12 linear_ft | 2 each |             1 pair | 2 each |
+|     18 inches |        0.80 sheet |        0.07 sheet |        0.08 sheet | 0.04 sheet |         1 board |       16 linear_ft | 2 each |             1 pair | 2 each |
+|     24 inches |        0.95 sheet |        0.08 sheet |        0.11 sheet | 0.04 sheet |        2 boards |       20 linear_ft | 4 each |             1 pair | 3 each |
+|     30 inches |        1.10 sheet |        0.09 sheet |        0.14 sheet | 0.07 sheet |        2 boards |       24 linear_ft | 4 each |             1 pair | 3 each |
+|     36 inches |        1.25 sheet |        0.10 sheet |        0.17 sheet | 0.10 sheet |        2 boards |       28 linear_ft | 4 each |             1 pair | 3 each |
+|     42 inches |        1.41 sheet |        0.11 sheet |        0.20 sheet | 0.12 sheet |        3 boards |       32 linear_ft | 4 each |             1 pair | 3 each |
+|     48 inches |        1.56 sheet |        0.12 sheet |        0.24 sheet | 0.15 sheet |        3 boards |       36 linear_ft | 4 each |             1 pair | 3 each |
 
 ---
 
@@ -157,16 +158,17 @@ Unless otherwise specified, a standard upper cabinet assumes:
 
 Use this table for rough material estimating before an optimized cut list exists.
 
-| Cabinet Width | 3/4 Birch Plywood | 1/4 Birch Plywood | Poplar 1x3 8 ft | Birch Edge Banding | Hinges | Pulls |
-| ------------: | ----------------: | ----------------: | --------------: | -----------------: | -----: | ----: |
-|     12 inches |        0.55 sheet |        0.10 sheet |         1 board |       10 linear_ft | 2 each | 1 each |
-|     18 inches |        0.65 sheet |        0.15 sheet |         1 board |       12 linear_ft | 2 each | 1 each |
-|     24 inches |        0.80 sheet |        0.20 sheet |        2 boards |       16 linear_ft | 4 each | 2 each |
-|     30 inches |        0.95 sheet |        0.25 sheet |        2 boards |       20 linear_ft | 4 each | 2 each |
-|     32 inches |        1.00 sheet |        0.25 sheet |        2 boards |       22 linear_ft | 4 each | 2 each |
-|     36 inches |        1.10 sheet |        0.30 sheet |        2 boards |       24 linear_ft | 4 each | 2 each |
-|     42 inches |        1.25 sheet |        0.35 sheet |        3 boards |       28 linear_ft | 4 each | 2 each |
-|     48 inches |        1.40 sheet |        0.40 sheet |        3 boards |       32 linear_ft | 4 each | 2 each |
+3/4 Birch Plywood values include: 2 sides, top, bottom, shelf, and 3/4 back. Formula: 675 + (W - 2) × 60.25 sq in ÷ 4,608 × 1.15 waste. 1/4 MDF is for door panels.
+
+| Cabinet Width | 3/4 Birch Plywood | 1/4 MDF | Poplar 1x3 8 ft | Birch Edge Banding | Hinges | Pulls |
+| ------------: | ----------------: | ------: | --------------: | -----------------: | -----: | ----: |
+|     12 inches |        0.32 sheet | 0.02 sheet |         1 board |       10 linear_ft | 2 each | 1 each |
+|     18 inches |        0.41 sheet | 0.02 sheet |         1 board |       12 linear_ft | 2 each | 1 each |
+|     24 inches |        0.50 sheet | 0.05 sheet |        2 boards |       16 linear_ft | 4 each | 2 each |
+|     30 inches |        0.59 sheet | 0.08 sheet |        2 boards |       20 linear_ft | 4 each | 2 each |
+|     36 inches |        0.68 sheet | 0.11 sheet |        2 boards |       24 linear_ft | 4 each | 2 each |
+|     42 inches |        0.77 sheet | 0.14 sheet |        3 boards |       28 linear_ft | 4 each | 2 each |
+|     48 inches |        0.86 sheet | 0.17 sheet |        3 boards |       32 linear_ft | 4 each | 2 each |
 
 Notes:
 
@@ -247,13 +249,59 @@ For rough cabinet finishing estimates, use:
 
 | Finish Item      | Estimating Rule            | Pricing Item ID           |
 | ---------------- | -------------------------- | ------------------------- |
-| Primer           | 0.05 gallon per cabinet    | PRIMER-GAL                |
-| Cabinet paint    | 0.05 gallon per cabinet    | PAINT-CAB-GAL             |
+| Primer           | 0.25 gallon per cabinet (2 coats)    | PRIMER-GAL                |
+| Cabinet paint    | 0.25 gallon per cabinet (2 coats minimum)    | PAINT-CAB-GAL             |
 | Caulk            | 0.25 tube per cabinet      | CAULK-PAINTABLE           |
 | Wood filler      | 0.10 container per cabinet | FILLER-WOOD               |
 | Sanding supplies | Include in consumables     | See consumables allowance |
 
 For painted cabinets, also apply the painted finish labor rules from `labor-standards.md`.
+
+---
+
+# Poplar Rip Yield Standards
+
+Poplar parts are ripped from full-width boards. Do not treat each part as requiring its own linear foot — calculate how many parts fit across the board face, then determine board LF needed.
+
+## Rip Yield from 1x10 (9.25" face)
+
+| Part Type | Rip Width | Parts per LF of Board |
+| --------- | --------- | --------------------: |
+| Face frame stiles/rails | 1.5" | 6 |
+| Door rails/stiles | 3.0" | 3 |
+| Drawer front frame | 3.0" | 3 |
+
+## Rip Yield from 1x8 (7.25" face)
+
+| Part Type | Rip Width | Parts per LF of Board |
+| --------- | --------- | --------------------: |
+| Face frame stiles/rails | 1.5" | 4 |
+| Door rails/stiles | 3.0" | 2 |
+| Drawer front frame | 3.0" | 2 |
+
+## Calculation Method
+
+1. List all poplar parts with their lengths and rip widths
+2. Group by rip width (1.5" face frame vs. 3.0" door/drawer)
+3. For each group: sum total linear inches needed
+4. Divide by parts-per-LF for the chosen board width → LF of board required per group
+5. Sum all groups → total raw LF
+6. Apply 15% waste factor → purchase LF
+7. Convert to board count using 10ft default board length
+
+## Example — 48" Base Cabinet, 1x10 Stock
+
+Face frame parts (1.5" rip, 6 per LF):
+- 2 stiles × 34.5" = 69"
+- 3 rails × 45" = 135"
+- Total: 204" ÷ 6 = 34" = 2.83 LF of board
+
+Door parts (3.0" rip, 3 per LF), 2 doors at 22.25"W × 23.75"H:
+- 4 stiles × 23.75" = 95"
+- 4 rails × 22.25" = 89"
+- Total: 184" ÷ 3 = 61.3" = 5.11 LF of board
+
+Raw total: 2.83 + 5.11 = 7.94 LF × 1.15 waste = **9.13 LF → 1 × 10ft board**
 
 ---
 

@@ -77,7 +77,7 @@ The following cabinet categories are used throughout the estimating system.
 
 * 24 inch depth
 * 34.5 inch height
-* Frameless construction
+* Face frame construction
 * CNC cut components
 * Standard shaker fronts
 * Soft close hardware
@@ -109,7 +109,7 @@ The following cabinet categories are used throughout the estimating system.
 
 * 12 inch depth
 * Standard wall cabinet height
-* Frameless construction
+* Face frame construction
 * CNC cut components
 * Standard shaker fronts
 
@@ -135,7 +135,7 @@ The following cabinet categories are used throughout the estimating system.
 
 * Full-height cabinet
 * Adjustable shelving
-* Frameless construction
+* Face frame construction
 * CNC cut components
 
 ### Includes
@@ -228,15 +228,13 @@ The following conditions should increase estimated labor and/or pricing.
 
 | Condition                     | Recommended Multiplier |
 | ----------------------------- | ---------------------: |
+| Standard Construction         |                   1.00 |
 | Painted Finish                |                   1.25 |
 | Inset Doors                   |                   1.50 |
 | Custom Trim                   |                   1.35 |
-| Curved Components             |                   1.75 |
-| No CNC Workflow               |                   1.40 |
 | High-End Hardwood             |                   1.15 |
-| Difficult Installation Access |                   1.20 |
-| Irregular Walls/Floors        |                   1.20 |
-| Premium Hardware              |                   1.10 |
+| Highly Irregular Walls        |                   1.20 |
+| Specialty Hardware            |                   1.15 |
 
 ---
 
@@ -251,9 +249,8 @@ The following conditions should increase estimated labor and/or pricing.
 5. Estimate labor requirements
 6. Apply finish adjustments
 7. Apply installation adjustments
-8. Add overhead and profit
-9. Review estimate for completeness
-10. Deliver customer quote
+8. Review estimate for completeness — do not add overhead or profit as separate line items; the $65/hr labor rate already includes both
+9. Deliver customer quote
 
 ---
 

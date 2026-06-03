@@ -60,6 +60,8 @@ Calculate labor hours using the unrounded operation totals first. Calculate labo
 
 # Standard Labor Operations
 
+These are job-level and unit-level rates used for overhead tasks and non-standard calculations. For standard cabinet estimates, use the per-cabinet tables under Cabinet Standards — those override Cutting & Prep for typical builds. The per-sheet Cutting & Prep rate applies when estimating jobs with unusual sheet counts or non-standard configurations.
+
 | Operation             | Unit        | Standard Time |
 | --------------------- | ----------- | ------------: |
 | Initial Design        | Per Job     |       1.0 hrs |
@@ -129,7 +131,7 @@ A 36 inch standard base cabinet uses the 31 to 42 inch width factor of 1.10 for 
 
 | Operation          | Calculation        | Adjusted Time |
 | ------------------ | ------------------ | ------------: |
-| CNC Cutting        | 0.75 x 1.00        |      0.75 hrs |
+| Cutting & Prep     | 0.75 x 1.00        |      0.75 hrs |
 | Edge Banding       | 0.25 x 1.10        |     0.275 hrs |
 | Cabinet Assembly   | 1.50 x 1.10        |      1.65 hrs |
 | Drawer Assembly    | 0.50 x 1.00        |      0.50 hrs |
@@ -169,6 +171,24 @@ Total: 3.975 hours, rounded to 4.0 hours.
 | Front Installation | 0.25 hrs |
 | Sanding and Prep   | 0.40 hrs |
 
+### Width Adjustment
+
+| Cabinet Width     | Width Factor  | Notes                                                           |
+| ----------------: | ------------: | --------------------------------------------------------------- |
+| Up to 18 inches   |          0.95 | Small cabinet, slightly less handling and sanding               |
+| 19 to 30 inches   |          1.00 | Baseline range                                                  |
+| 31 to 42 inches   |          1.10 | Slightly more handling, sanding, and assembly                   |
+| 43 to 48 inches   |          1.20 | Larger cabinet, more awkward handling                           |
+| Over 48 inches    | Custom Review | Consider splitting into sections or manually reviewing labor    |
+
+| Operation          | Apply Width Factor? | Notes                                                      |
+| ------------------ | ------------------- | ---------------------------------------------------------- |
+| Cutting & Prep     | No                  | Keep baseline unless sheet handling changes significantly  |
+| Edge Banding       | Yes                 | Larger cabinets have more edge length                      |
+| Cabinet Assembly   | Yes                 | Larger boxes take more handling and squaring time          |
+| Front Installation | No                  | Track by door count instead                                |
+| Sanding and Prep   | Yes                 | Larger surfaces take more prep time                        |
+
 ### Excluded
 
 * Painting
@@ -195,6 +215,23 @@ Total: 3.975 hours, rounded to 4.0 hours.
 | Cabinet Assembly   | 2.50 hrs |
 | Front Installation | 0.50 hrs |
 | Sanding and Prep   | 0.75 hrs |
+
+### Width Adjustment
+
+| Cabinet Width     | Width Factor  | Notes                                                           |
+| ----------------: | ------------: | --------------------------------------------------------------- |
+| Up to 18 inches   |          0.95 | Small pantry, slightly less handling and sanding                |
+| 19 to 30 inches   |          1.00 | Baseline range                                                  |
+| 31 to 36 inches   |          1.10 | Slightly more handling, sanding, and assembly                   |
+| Over 36 inches    | Custom Review | Non-standard — manually review or consider splitting sections   |
+
+| Operation          | Apply Width Factor? | Notes                                                      |
+| ------------------ | ------------------- | ---------------------------------------------------------- |
+| Cutting & Prep     | No                  | Keep baseline unless sheet handling changes significantly  |
+| Edge Banding       | Yes                 | Larger cabinets have more edge length                      |
+| Cabinet Assembly   | Yes                 | Larger boxes take more handling and squaring time          |
+| Front Installation | No                  | Track by door count instead                                |
+| Sanding and Prep   | Yes                 | Larger surfaces take more prep time                        |
 
 ### Excluded
 

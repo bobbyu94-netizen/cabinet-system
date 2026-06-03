@@ -107,11 +107,13 @@ The required Excel workbook output must follow this exact print-only workbook st
 | Sheet Order | Sheet Name | Purpose |
 | ---: | --- | --- |
 | 1 | Summary | Material purchase summary |
-| 2 | 3-4 Birch Parts | Final 3/4 inch plywood cabinet box parts |
+| 2 | 3-4 Birch Parts | Final 3/4 inch birch plywood cabinet box parts (sides, top, bottom, shelf, back) |
 | 3 | 3-4 Birch Sheet Plan | Rough 3/4 inch plywood sheet breakdown and optimized cutting plan |
-| 4 | 1-4 Door Panels | 1/4 inch plywood shaker door center panels |
-| 5 | Poplar Parts | Final poplar face frame and door rail/stile parts |
-| 6 | Poplar Cut Plan | Optimized poplar board breakdown |
+| 4 | 1-2 Birch Parts | 1/2 inch birch plywood drawer box parts (sides, front, back) |
+| 5 | 1-4 Birch Parts | 1/4 inch birch plywood drawer bottom parts |
+| 6 | 1-4 MDF Door Panels | 1/4 inch MDF shaker door center panels |
+| 7 | Poplar Parts | Final poplar face frame and door rail/stile parts |
+| 8 | Poplar Cut Plan | Optimized poplar board breakdown |
 
 Do not use slash characters in Excel sheet names. Use `3-4 Birch Parts`, not `3/4 Birch Parts`.
 
@@ -203,9 +205,9 @@ Column width guidelines:
 | F | 8 |
 | G | 42 |
 
-## one_quarter_door_panels_sheet_format
+## one_quarter_mdf_door_panels_sheet_format
 
-The `1-4 Door Panels` sheet is for 1/4 inch plywood shaker door center panels only.
+The `1-4 MDF Door Panels` sheet is for 1/4 inch MDF shaker door center panels only. In wet area cabinets, use 1/4 inch birch plywood instead.
 
 The sheet must use these columns:
 
@@ -296,8 +298,8 @@ Rules:
 * Read `cabinet-system-standards.md` before creating the cut list.
 * Read `material-usage-standards.md` when material quantity assumptions are needed.
 * Standard upper cabinets should include two shaker doors unless the user says otherwise.
-* Standard upper cabinets should include face frame parts, door parts, 3/4 inch plywood box parts, 3/4 inch plywood back, and 1/4 inch door panels.
-* Standard base cabinets should include face frame parts, door/drawer parts when applicable, 3/4 inch plywood box parts, 3/4 inch plywood back, and integrated toe kick rules from `cabinet-system-standards.md`.
+* Standard upper cabinets should include face frame parts, door parts, 3/4 inch plywood box parts, 3/4 inch plywood back, and 1/4 inch MDF door panels.
+* Standard base cabinets should include face frame parts, door/drawer parts when applicable, 3/4 inch plywood box parts, 3/4 inch plywood back, 1/2 inch birch drawer box parts, 1/4 inch birch drawer bottoms, 1/4 inch MDF door panels, and integrated toe kick rules from `cabinet-system-standards.md`.
 * Do not omit doors from a standard cabinet cut list unless the user explicitly says doors are excluded.
 
 ---
