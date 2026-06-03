@@ -27,6 +27,9 @@ standard_upper_depth: 12 inches
 # global_rules
 
 minimum_usable_offcut_width: 1.5
+poplar_1x10_planning_width: 9.0
+poplar_1x8_planning_width: 7.0
+poplar_width_note: actual boards vary — use planning width to avoid mid-job shortages
 
 default_saw_kerf: 0.125
 
