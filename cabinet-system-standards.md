@@ -118,16 +118,23 @@ optimization_priority:
 
 ## poplar_workflow
 
-sequence:
+step_1: survey_all_parts — list every poplar part (width x length) before cutting
+step_2: crosscut_to_length_first — miter cut to part length, starting with longest part
+step_3: rip_for_width — extract maximum same-width parts from that section
+step_4: track_kerf — deduct 0.125 per rip from remaining width
+step_5: track_offcuts — record width and length of any remaining piece >= 1.5 wide
+step_6: evaluate_all_material — at each decision, check remaining board and all offcuts for best utilization
+step_7: crosscut_offcuts_as_needed — when using an offcut for a shorter part, crosscut first; remaining length is also an offcut if >= 1.5 wide
 
-* longest_crosscuts_first
-* grouped_length_batches
-* joint_and_plane_batches
-* final_rip_widths_last
-
-offcut_rules:
+kerf: 0.125
 minimum_usable_width: 1.5
-reusable_offcuts: true
+scrap_threshold: below_1.5_width
+
+offcut_states:
+  offcut: width >= 1.5, no remaining use in project — record dimensions only
+  scrap: width < 1.5 — not tracked
+
+width_check_rule: offcut_width >= part_width + 0.125 kerf required to yield that part
 
 ---
 
