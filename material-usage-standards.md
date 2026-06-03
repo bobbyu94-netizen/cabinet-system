@@ -158,17 +158,17 @@ Unless otherwise specified, a standard upper cabinet assumes:
 
 Use this table for rough material estimating before an optimized cut list exists.
 
-3/4 Birch Plywood values include: 2 sides, top, bottom, shelf, and 3/4 back. Formula: 675 + (W - 2) × 60.25 sq in ÷ 4,608 × 1.15 waste. 1/4 MDF is for door panels.
+3/4 Birch Plywood values include: 2 sides, top, bottom, shelf, and 3/4 back. Formula: 675 + (W - 2) × 60.25 sq in ÷ 4,608 × 1.15 waste. 1/4 MDF is for door panels. Poplar board counts use 1x10 at 9.0" planning width, 10ft boards, 15% waste, overlay door formula (single door < 24", double door ≥ 24").
 
-| Cabinet Width | 3/4 Birch Plywood | 1/4 MDF | Poplar 1x3 8 ft | Birch Edge Banding | Hinges | Pulls |
-| ------------: | ----------------: | ------: | --------------: | -----------------: | -----: | ----: |
-|     12 inches |        0.32 sheet | 0.02 sheet |         1 board |       10 linear_ft | 2 each | 1 each |
-|     18 inches |        0.41 sheet | 0.02 sheet |         1 board |       12 linear_ft | 2 each | 1 each |
-|     24 inches |        0.50 sheet | 0.05 sheet |        2 boards |       16 linear_ft | 4 each | 2 each |
-|     30 inches |        0.59 sheet | 0.08 sheet |        2 boards |       20 linear_ft | 4 each | 2 each |
-|     36 inches |        0.68 sheet | 0.11 sheet |        2 boards |       24 linear_ft | 4 each | 2 each |
-|     42 inches |        0.77 sheet | 0.14 sheet |        3 boards |       28 linear_ft | 4 each | 2 each |
-|     48 inches |        0.86 sheet | 0.17 sheet |        3 boards |       32 linear_ft | 4 each | 2 each |
+| Cabinet Width | 3/4 Birch Plywood | 1/4 MDF | Poplar 1x10 10 ft | Birch Edge Banding | Hinges | Pulls |
+| ------------: | ----------------: | ------: | ----------------: | -----------------: | -----: | ----: |
+|     12 inches |        0.32 sheet | 0.02 sheet |           1 board |       10 linear_ft | 2 each | 1 each |
+|     18 inches |        0.41 sheet | 0.02 sheet |           1 board |       12 linear_ft | 2 each | 1 each |
+|     24 inches |        0.50 sheet | 0.05 sheet |           1 board |       16 linear_ft | 4 each | 2 each |
+|     30 inches |        0.59 sheet | 0.08 sheet |           1 board |       20 linear_ft | 4 each | 2 each |
+|     36 inches |        0.68 sheet | 0.11 sheet |           1 board |       24 linear_ft | 4 each | 2 each |
+|     42 inches |        0.77 sheet | 0.14 sheet |           1 board |       28 linear_ft | 4 each | 2 each |
+|     48 inches |        0.86 sheet | 0.17 sheet |           1 board |       32 linear_ft | 4 each | 2 each |
 
 Notes:
 
